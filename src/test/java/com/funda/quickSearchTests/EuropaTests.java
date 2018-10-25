@@ -27,7 +27,7 @@ public class EuropaTests extends BaseTest {
         TestHelper.waitTillElementVisible(QuickSearchPOM.SEARCH_BUTTON);
         QuickSearchPOM.SEARCH_BUTTON.click();
         TestHelper.waitTillElementVisible(SearchResultPOM.EUROPA_SEARCH_FIELD);
-        assertTrue("Expected: Alle landen, Actual:" + SearchResultPOM.EUROPA_SEARCH_FIELD.getText(), SearchResultPOM.SEARCH_INPUT.getText().equals("Alle landen"));
+        assertTrue("Expected: Alle landen, Actual:" + SearchResultPOM.EUROPA_SEARCH_FIELD.getText(), SearchResultPOM.EUROPA_SEARCH_FIELD.getText().equals("Alle landen"));
     }
 
     @Test
