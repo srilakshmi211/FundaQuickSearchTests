@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FundaSerchTestSuite">
+    <test name="FundaSerchTest" >
+        <classes>
+            <class name="com.funda.quickSearchTests.BaseTest"/>
+            <class name="com.funda.quickSearchTests.KoopTests"/>
+            <class name="com.funda.quickSearchTests.HuurTests"/>
+            <class name="com.funda.quickSearchTests.NieuwbouwTests"/>
+            <class name="com.funda.quickSearchTests.RecreatieTests"/>
+            <class name="com.funda.quickSearchTests.EuropaTests"/>
+        </classes>
+    </test>
+</suite>
